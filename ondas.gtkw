@@ -1,0 +1,43 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Fri Apr 12 23:53:44 2024
+[*]
+[dumpfile] "/home/david/Documents/tarea01_estacionamiento_final/resultados.vcd"
+[dumpfile_mtime] "Fri Apr 12 23:47:03 2024"
+[dumpfile_size] 3514
+[savefile] "/home/david/Documents/tarea01_estacionamiento_final/ondas.gtkw"
+[timestart] 2
+[size] 1850 912
+[pos] -1 -1
+*-7.458642 1159 36 156 396 756 1101 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[markername] APRUEBA #1
+[markername] BPRUEBA #2
+[markername] CPRUEBA #3
+[markername] DPRUEBA #4
+[markername] EFINAL
+[sst_width] 233
+[signals_width] 153
+[sst_expanded] 1
+[sst_vpaned_height] 252
+@28
+controlador_tb.C0.reset
+controlador_tb.C0.clock
+@22
+controlador_tb.C0.estado[5:0]
+@24
+controlador_tb.C0.intento[1:0]
+@22
+controlador_tb.C0.sCode[7:0]
+@28
+controlador_tb.C0.sEnter
+controlador_tb.C0.sEntrada
+controlador_tb.C0.sSalida
+@29
+controlador_tb.C0.sCerrar
+@28
+controlador_tb.C0.sAbrir
+controlador_tb.C0.sAlmInc
+controlador_tb.C0.sBloq
+controlador_tb.C0.sAlmBloq
+[pattern_trace] 1
+[pattern_trace] 0
