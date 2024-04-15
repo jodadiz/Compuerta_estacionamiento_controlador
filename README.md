@@ -27,3 +27,37 @@ y concisa. Como una de las recomendaciones para un diseno posterior es la senal 
 facilidad de implementacion de la descripcion conductual y para que el usuario pueda presionar
 cuando ya se ha digitado el codigo que desea. Tambien para un diseno posterior se puede realizar
 la descripcion a fondo del cuidado que se debe tener con los contadores en los controladores.
+
+## Diagrama de Bloques
+![Diagrama de bloques](https://github.com/jodadiz/Compuerta_estacionamiento_controlador/assets/91231399/d99aed29-a518-4658-a87c-e1fcde04ba58)
+
+Entradas:
+
+sEnter: Es una senal que indica en el momento en el que la persona desea realizar un
+intento. Se anade para mayor facilidad de realizar el conteo de los intentos al digitar un
+codigo. No se encuentra dentro de las especificaciones normales.
+
+sEntrada: Esta senal de sensor nos indica en el momento que un vehıculo se encuentra
+frente a la compuerta.
+
+sCode: La entrada de sCode es el codigo de 8 bits digitado por la persona que desea
+ingresar. El codigo correcto es 0011 1000 (38).
+
+sSalida: Una senal de sensor la cual indica en el momento que el vehıculo salio y se puede
+proceder a cerrar la compuerta.
+
+Salidas:
+
+sAbrir: Senal que le indica a la compuerta del estacionamiento cuando puede abrirse.
+
+sCerrar: En este caso esta senal es la senal negada de sAbrir ya que las dos no se
+pueden encontrar activas al mismo momento. Le indica a la compuerta cuando debe de
+encontrarse cerrada.
+
+sAlmInc: Esta senal esta implementada para activar la alarma de pin incorrecto cuando
+los intentos son iguales o mayores a tres.
+
+sBloq: Senal que indica a la compuerta de entrar en bloqueo.
+
+sAlmBloq: Esta senal se maneja en conjunto con sBloq la cual activa una alarma de
+bloqueo.
